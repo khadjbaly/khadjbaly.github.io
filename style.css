@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+}
+
+.home {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://i.pinimg.com/736x/b6/40/d7/b640d7cb7f9b9f6fc0d869012d1b9e79.jpg");
+    background-size: 100% 100%;
+}
+
+.pageprincipal {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.logo img {
+    height: 90px;
+    width: 90px;
+}
+    
+
+.nav {
+    display: flex;
+    position: absolute;
+    top: 50px;
+    right: 70px;
+    gap: 50px;
+    font-size: large;
+}
+
+.nav a {
+    font-size: x-large;
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.pageprincipal h1 {
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.fleche {
+    position: absolute;
+    bottom: -2px;
+    right: 47%;
+    transform: translate(50%);
+}
+
+.home2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #283618;
+    display: flex;
+}
+
+.block1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.block2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.totoro {
+    width: 500px;
+    
+}
+
+.aboutme {
+    color: white;
+    width: 100%;
+    height: 20%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aboutme h1 {
+    margin-bottom: 5%;
+}
+
+.aboutme p {
+    font-size: large;
+    width: 70%;
+}
+
+.formations {
+    color: white;
+    width: 100%;
+    height: 20%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formation {
+    display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icontotoro {
+    width: 20px;
+    height: auto;
+}
+
+
+.formations h1 {
+    font-size: xx-large;
+    margin-bottom: 5%;
+}
+
+.formations p {
+    margin-bottom: 3%;
+    font-size: large;
+}
+
+.experiences {
+    color: rgb(0, 0, 0);
+    width: 400px;
+    height: 400px;
+    background-color: #FEFAE0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.experience {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.centreinteret {
+    color: white;
+     width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.centreinteret h1 {
+    font-size: xx-large;
+    margin-bottom: 5%;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.blockicon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconslire img {
+    width: 70px;
+    height: 70px;
+}
+
+.iconscolorier img {
+    width: 70px;
+    height: 70px;
+}
+
+.iconsjeux img {
+    width: 70px;
+    height: 70px;
+}
+
+.iconsvoyage img {
+    width: 70px;
+    height: 70px;
+}
+
+.icons p {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.home3 {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://i.pinimg.com/originals/53/8e/a5/538ea53107f3c32d87a5e1be82f6c05b.gif");
+    background-size: 100% 100%;
+}
+
+.home4 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #283618;
+}
