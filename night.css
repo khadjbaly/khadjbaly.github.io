@@ -1,7 +1,12 @@
 * {
     margin: 0;
 }
-
+html {
+    scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+}
 .home {
     width: 100vw;
     height: 100vh;
@@ -138,8 +143,8 @@
     width: 200px;
     height: auto;
     position: absolute;
-    bottom: -955px;
-    left: 22%;
+    bottom: -944px;
+    left: 25%;
     
 }
 
@@ -375,5 +380,85 @@ form .icon {
     transform: translateY(-0.15em);
 }
 
+@media screen and (max-width:767px) {
+    .home {
+        background-size: cover;
+        background-position: center;
+    }
+    .logo {
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .nav {
+            top: 100px;
+            width: 100%;
+            justify-content: space-evenly;
+            right: 0;
+            gap: 0;
+    }
+    .pageprincipal {
+            bottom: 200px;
+            padding: 20px;
+    }
+    .home2 {
+        width: 100vw;
+        height: auto;
+        background-color: #432534;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
 
-@m
+    .aboutme p {
+        width: 78%;
+    }
+
+    .formations p {
+        width: 230px;
+    }
+    
+    .totoro {
+        width: 400px;
+
+    }
+    .icons {
+        width: 90%;
+    }
+
+    .formations {
+        flex-wrap: wrap;
+    align-content: center;
+    }
+    .block1 {
+        width: 100%;
+    }
+
+    .block2 {
+        width: 100%;
+        
+    }
+    .minitotoro {
+        width: 99px;
+        bottom: -1058px;
+        left: 77%;
+    }
+
+    .experiences {
+        width: 100%;
+        height: 300px;
+    }
+
+    form {
+        min-width: 20rem;
+    }
+    
+    .home3 {
+        background-size: contain;
+    
+
+    }
+    svg {
+        height: 23rem;
+        margin-right: 4rem;
+        display: none;
+}

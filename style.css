@@ -422,6 +422,10 @@ form .icon {
         width: 400px;
 
     }
+    .icons {
+        width: 90%;
+    }
+
     .formations {
         flex-wrap: wrap;
     align-content: center;
@@ -445,9 +449,10 @@ form .icon {
         height: 300px;
     }
 
-    .aboutme {
-    
+    form {
+        min-width: 20rem;
     }
+    
     .home3 {
         background-size: contain;
     
