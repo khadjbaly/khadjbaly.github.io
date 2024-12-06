@@ -1,7 +1,12 @@
 * {
     margin: 0;
 }
-
+html {
+    scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+}
 .home {
     width: 100vw;
     height: 100vh;
@@ -27,7 +32,7 @@
     height: 90px;
     width: 90px;
 }
-    
+
 
 .nav {
     display: flex;
@@ -138,8 +143,8 @@
     width: 200px;
     height: auto;
     position: absolute;
-    bottom: -955px;
-    left: 22%;
+    bottom: -944px;
+    left: 25%;
     
 }
 
@@ -404,6 +409,14 @@ form .icon {
         flex-direction: column-reverse;
         align-items: center;
     }
+
+    .aboutme p {
+        width: 78%;
+    }
+
+    .formations p {
+        width: 230px;
+    }
     
     .totoro {
         width: 400px;
@@ -421,13 +434,27 @@ form .icon {
         width: 100%;
         
     }
+    .minitotoro {
+        width: 99px;
+        bottom: -1058px;
+        left: 77%;
+    }
+
     .experiences {
-        width: 300px;
+        width: 100%;
         height: 300px;
+    }
+
+    .aboutme {
+    
     }
     .home3 {
         background-size: contain;
     
 
     }
+    svg {
+        height: 23rem;
+        margin-right: 4rem;
+        display: none;
 }
